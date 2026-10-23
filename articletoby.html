@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Checkout Page</title>
+</head>
+
+<body>
+<h1>Checkout</h1>
+
+<section>
+  <h2>Your Cart</h2>
+
+  <img src="cube.jpg" alt="A multicolored Rubik's cube"></img>
+  <p>Rubik's cube</p> 
+  <p>$10.00 </p>
+</section>
+
+<section>
+  <h2>Payment Information</h2>  
+
+  <form>
+    <label for="card-name">Cardholder Name:<span aria-hidden="true">*</span></label>
+    <input id="card-name" name="card-name" type="text" required/>
+    <div>
+    <label for="card-number">Card Number:<span aria-hidden="true">*</span></label>
+    <input id="card-number" name="card-number" type="text" 
+    aria-describedby="card-number-help"
+    required/>
+    <p id="card-number-help">Please enter your 16-digit card number without spaces or dashes.</p>
+    </div>
+    <label for="expiry-date">Expiry Date:<span aria-hidden="true">*</span></label>
+    <input id="expiry-date" name="expiry-date" type="text" 
+    placeholder="MM/YY"
+    required/>
+    <div>
+    <label for="cvv">CVV:<span aria-hidden="true">*</span></label>
+    <input id="cvv" name="cvv" type="text"/>
+    </div>
+
+    <button id="send" type="submit">Place Order</button>
+  </form>
+</section>
+</body>
+
+</html>
