@@ -1,0 +1,63 @@
+body {
+  background: linear-gradient(to right, rgb(172, 229, 251), rgb(8, 85, 161), rgb(1, 38, 53));
+  width: 100%;
+  font-family: calibri;
+}
+.form-container {
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px auto;
+  width: 80%;
+  max-width: 400px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+}
+
+h2 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 2rem;
+}
+label {
+  margin: 10px;
+  color: rgb(49, 48, 48);
+  text-align: center;
+  display: block;
+  margin-top: 20px;
+}
+
+input, textarea {
+  width: 100%;
+  display: block;
+  justify-content: center;
+  height: 5dvh;
+  border-radius: 5px;
+  border: 1px solid gray;
+  padding: 8px 0;
+  margin-bottom: 10px;
+}
+
+input {
+  height: 30px;
+}
+
+textarea {
+  height: 90px;
+  resize: vertical; /* Permet à l'utilisateur d'agrandir proprement */
+}
+
+button {
+  background-color: rgb(85, 202, 85);
+  border: none;
+  display: block;
+  color: white;
+   margin: 20px auto 0;
+   cursor: pointer;
+   padding: 8px 15px;
+   border-radius: 5px;
+   font-weight: bold;
+  font-size: 14px;
+}
+button:hover {
+  background-color: rgb(198, 196, 196);
+}
